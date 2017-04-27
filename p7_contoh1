@@ -1,0 +1,19 @@
+#include <iostream> // Define iostream
+using namespace std; // menggunakan std
+int main()
+{
+ int hasil =1;
+ int angka;
+
+    cout<<"Angka : ";
+    cin>>angka;
+
+    do{
+            hasil = hasil*angka;
+            angka--;
+    }
+    while (angka>=1);
+
+    cout<<"Hasil : "<<hasil;
+
+}
